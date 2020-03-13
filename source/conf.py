@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'xrmdoc'
-copyright = '2020, Richard Mateosian'
+copyright = '2020, Symbio Robotics'
 author = 'Richard Mateosian'
 
 
@@ -28,6 +28,12 @@ author = 'Richard Mateosian'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.doctest',
+    'sphinx.ext.extlinks',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.todo',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
